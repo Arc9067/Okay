@@ -12,10 +12,10 @@
   --header-height: 3rem;
   --font-semi: 600;
   /*===== Colores =====*/
-  --first-color: #f8c74b;
-  --body-bg: #ca5918;
+  --first-color: #fff;
+  --body-bg: #000;
   /*===== typography =====*/
-  --body-font: "Changa", sans-serif;
+  --body-font: "Otaku Rant", sans-serif;
   --Otaku: "Otaku Rant";
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
@@ -52,7 +52,7 @@ body {
   font-size: var(--normal-font-size);
   color: var(--second-color);
   background: var(--body-bg);
-  color: var(--white);
+  color: #fff;
   position: relative;
 }
 
@@ -89,4 +89,72 @@ img:not(.nav-logo, .no) {
   margin-inline: auto;
 }
 
-/*===== CLASS CSS ===== *//*# sourceMappingURL=style.css.map */
+/*===== CLASS CSS ===== */
+header {
+  padding-block: 15px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+header nav a.title {
+  font-family: "Otaku Rant", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.hero {
+  width: 100%;
+  padding-block: 100px 50px;
+}
+.hero img {
+  max-width: 25rem;
+}
+.hero .div {
+  height: 300px;
+}
+.hero a.btn {
+  background-color: #0201a5;
+  padding: 15px 32px;
+  color: #fff;
+}
+.hero a.btn:last-child {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+#about {
+  min-height: 100vh;
+  width: 100%;
+  padding-block: 50px;
+}
+#about .container .row {
+  height: 400px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+#about .container .row h1.title {
+  color: #ffffff;
+  font-size: 85px;
+  text-transform: uppercase;
+  letter-spacing: -4.5px;
+  word-spacing: 10px;
+  -webkit-text-stroke-width: 1px;
+  stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  stroke: #000;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.63);
+}
+@media (max-width: 700px) {
+  #about .container .row h1.title {
+    font-size: 48px;
+  }
+}
+#about .container .row p {
+  font-size: 20px;
+  color: grey;
+  max-width: 400px;
+  margin-inline: auto;
+}/*# sourceMappingURL=style.css.map */
