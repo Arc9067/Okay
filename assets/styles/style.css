@@ -126,7 +126,6 @@ header nav a.title {
 }
 
 #about {
-  min-height: 100vh;
   width: 100%;
   padding-block: 50px;
 }
